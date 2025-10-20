@@ -4,8 +4,17 @@
   "description": "Just a fun side project to digitize family recipes and make them more shareable",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "npm test"
   },
   "author": "Garrett Weaver",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite": "^6.4.1"
+  }
 }
