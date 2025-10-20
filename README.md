@@ -1,1 +1,1 @@
-# recipewebsite
+Just a fun side project to digitize family recipes and make them more shareable
