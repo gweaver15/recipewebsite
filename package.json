@@ -1,0 +1,11 @@
+{
+  "name": "recipewebsite",
+  "version": "1.0.0",
+  "description": "Just a fun side project to digitize family recipes and make them more shareable",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Garrett Weaver",
+  "license": "ISC"
+}
