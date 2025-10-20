@@ -47,14 +47,69 @@ header p {
   text-align: center;
 }
 
+/* Category section styles */
+.category-section {
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.category-header {
+  padding: 20px 25px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.category-header:hover {
+  background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+}
+
+.category-header h2 {
+  color: white;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.category-count {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.category-header .expand-icon {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.category-header:hover .expand-icon {
+  transform: scale(1.1);
+}
+
+.category-recipes {
+  padding: 20px;
+  background: #f8f9fa;
+  animation: slideDown 0.3s ease-out;
+}
+
 /* Recipe card styles */
 .recipe-card {
   background: white;
   border-radius: 8px;
   margin-bottom: 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e9ecef;
 }
 
 .recipe-card:hover {
